@@ -1,0 +1,151 @@
+body {
+  background-color: black;
+  color: #aaa;
+  font-size: 12pt;
+  padding: 1em;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#unsupported {
+  border: 1px solid yellow;
+  color: black;
+  background-color: #ffffad;
+  padding: 2em;
+  margin: 1em;
+  display: inline-block;
+}
+
+.footer {
+  display: flex;
+  padding: 0.5rem 0;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 640px;
+  margin: 0 auto;
+  font-size: 0.825em;
+  background-color: #333;
+  background-color: white;
+}
+
+.footer h2 {
+  color: white;
+  text-align: center;
+  margin: 0;
+}
+
+.footer .parts {
+  padding-left: 1em;
+  list-style-type: none;
+  margin-bottom: 2em;
+  text-align: right;
+}
+
+.footer .parts li a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer .parts li a:visited {
+  color: white;
+}
+
+.footer .parts li a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.footer .parts li a.selected {
+  color: #f08010;
+}
+
+.footer .parts li a i {
+  color: #aaa;
+}
+
+.footer .parts li a.selected i {
+  color: #f08010;
+}
+
+.footer .settings {
+  width: 8rem;
+  line-height: 1.2em;
+  height: 1.2em;
+  text-align: center;
+}
+
+.footer .settings.speed {
+  margin-bottom: 1em;
+}
+
+.footer .settings label {
+  vertical-align: middle;
+}
+
+.footer .settings input {
+  vertical-align: middle;
+}
+
+.footer .settings select {
+  vertical-align: middle;
+}
+
+.footer .description {
+  margin-bottom: 2em;
+}
+
+.footer .description b {
+  font-weight: normal;
+  color: #fff;
+}
+
+@media screen and (min-width: 0px) {
+  .game {
+    display: block;
+    width: 480px;
+    height: 360px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .game {
+    width: 640px;
+    height: 480px;
+    margin: 0 auto;
+  }
+  .footer {
+    width: 640px;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .footer {
+    width: 640px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .game {
+    width: 800px;
+    height: 600px;
+  }
+  .footer {
+    width: 800px;
+  }
+}
+
+@media screen and (min-width: 1600px) {
+  .game {
+    width: 1024px;
+    height: 768px;
+  }
+  .footer {
+    width: 1024px;
+  }
+}
