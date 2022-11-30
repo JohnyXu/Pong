@@ -22,8 +22,8 @@ body {
 
 .footer {
   display: flex;
-  padding: 0.5rem 0;
-  flex-direction: column;
+  border-top: 1px solid black;
+  padding: 1rem 0;
   justify-content: center;
   align-items: center;
   width: 640px;
